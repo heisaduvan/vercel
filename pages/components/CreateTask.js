@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import TaskConsumer from "./TaskContext";
+import TaskConsumer from "../../TaskContext";
 
 var uniqid = require("uniqid");
 

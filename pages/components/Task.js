@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import UserConsumer from "./TaskContext";
+import UserConsumer from "../../TaskContext";
 import PropTypes from "prop-types";
 export default class Task extends Component {
   done = (dispatch,id,e) => {
