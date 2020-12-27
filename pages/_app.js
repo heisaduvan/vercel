@@ -1,7 +1,10 @@
-import '../styles/globals.css'
-
+import "../styles/globals.css";
+import {TaskProvider} from "./components/TaskContext";
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return(
+  <TaskProvider>
+    <Component {...pageProps} />
+  </TaskProvider>);
 }
 
-export default MyApp
+export default MyApp;
